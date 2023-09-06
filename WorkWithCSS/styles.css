@@ -1,0 +1,19 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1024px;
+  margin: 0 auto;
+  border: 3px solid green;
+}
+
+.list__items,
+.list__inner {
+  border: 3px solid red;
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.list__inner {
+  width: 50px;
+}
